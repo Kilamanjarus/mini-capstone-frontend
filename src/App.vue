@@ -5,7 +5,8 @@
     <router-link to="/signup">Signup</router-link> |
     <router-link to="/login">Login</router-link> |
     <router-link to="/logout">Logout</router-link> |
-    <router-link to="/products">Products</router-link>
+    <router-link to="/products">Products</router-link> |
+    <router-link to="/products/new">New Product</router-link>
   </nav>
   <router-view />
 </template>

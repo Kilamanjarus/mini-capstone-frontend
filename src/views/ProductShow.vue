@@ -27,6 +27,7 @@ export default {
   <template>
   <div class="home">
     <h1>{{  currentProduct  }}</h1>
+    <a v-bind:href="`/products/${currentProduct.id}/edit`">Edit</a>
   </div>
 </template>
   
