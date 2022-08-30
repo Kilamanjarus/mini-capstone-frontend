@@ -3,6 +3,9 @@ import HomeView from '../views/HomeView.vue'
 import SignupView from "../views/SignupView.vue";
 import LoginView from "../views/LoginView.vue";
 import LogoutView from "../views/LogoutView.vue";
+import ProductIndex from "../views/ProductIndex.vue";
+import ProductShow from "../views/ProductShow.vue";
+import ProductCreate from "../views/ProductCreate.vue";
 
 const routes = [
   {
@@ -24,6 +27,21 @@ const routes = [
     path: '/logout',
     name: 'logout',
     component: LogoutView
+  },
+  {
+    path: '/products',
+    name: 'products',
+    component: ProductIndex
+  },
+  {
+    path: '/products/:id',
+    name: 'product-show',
+    component: ProductShow
+  },
+  {
+    path: '/products',
+    name: 'product-create',
+    component: ProductCreate
   },
   {
     path: '/about',

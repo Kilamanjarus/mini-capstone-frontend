@@ -9,12 +9,12 @@ export default {
   methods: {},
 };
 </script>
-
-<template>
+  
+  <template>
   <div class="home">
     <h1>{{  message  }}</h1>
   </div>
 </template>
-
-<style>
-</style>
+  
+  <style>
+  </style>
